@@ -1,5 +1,13 @@
 # Changelog
 
+## [7.0.0-pre.4](https://github.com/npm/cli/compare/libnpmpublish-v7.0.0-pre.3...libnpmpublish-v7.0.0-pre.4) (2022-10-18)
+
+### Dependencies
+
+* [`20809d0`](https://github.com/npm/cli/commit/20809d0f1bec30dc70546108a2c08e4c14454de5) `npm-package-arg@10.0.0`, `pacote@15.0.2`
+* [`aa01072`](https://github.com/npm/cli/commit/aa010722996ef6de46e1bb937c6f8a94dc2844fa) [#5707](https://github.com/npm/cli/pull/5707) update the following dependencies
+* [Workspace](https://github.com/npm/cli/compare/libnpmpack-v5.0.0-pre.3...libnpmpack-v5.0.0-pre.4): `libnpmpack@5.0.0-pre.4`
+
 ## [7.0.0-pre.3](https://github.com/npm/cli/compare/libnpmpublish-v7.0.0-pre.2...libnpmpublish-v7.0.0-pre.3) (2022-10-13)
 
 ### Dependencies

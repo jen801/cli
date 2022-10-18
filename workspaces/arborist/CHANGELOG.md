@@ -1,5 +1,24 @@
 # Changelog
 
+## [6.0.0-pre.5](https://github.com/npm/cli/compare/arborist-v6.0.0-pre.4...arborist-v6.0.0-pre.5) (2022-10-18)
+
+### ⚠️ BREAKING CHANGES
+
+* this package no longer attempts to change file ownership automatically
+
+### Features
+
+* [`475e9b6`](https://github.com/npm/cli/commit/475e9b6c0c978a104dd2ee47bde22b0a031a95f9) [#5703](https://github.com/npm/cli/pull/5703) do not alter file ownership (@nlf)
+
+### Bug Fixes
+
+* [`3f1fcf0`](https://github.com/npm/cli/commit/3f1fcf054276f7f65e6a78c4d5bc460e7f962e49) account for new npm-package-arg behavior (@wraithgar)
+
+### Dependencies
+
+* [`20809d0`](https://github.com/npm/cli/commit/20809d0f1bec30dc70546108a2c08e4c14454de5) `npm-package-arg@10.0.0`, `pacote@15.0.2`
+* [`aa01072`](https://github.com/npm/cli/commit/aa010722996ef6de46e1bb937c6f8a94dc2844fa) [#5707](https://github.com/npm/cli/pull/5707) update the following dependencies
+
 ## [6.0.0-pre.4](https://github.com/npm/cli/compare/arborist-v6.0.0-pre.3...arborist-v6.0.0-pre.4) (2022-10-05)
 
 ### Features

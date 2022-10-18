@@ -1,5 +1,25 @@
 # Changelog
 
+## [5.0.0-pre.5](https://github.com/npm/cli/compare/libnpmexec-v5.0.0-pre.4...libnpmexec-v5.0.0-pre.5) (2022-10-18)
+
+### ⚠️ BREAKING CHANGES
+
+* this package no longer attempts to change file ownership automatically
+
+### Features
+
+* [`58065bc`](https://github.com/npm/cli/commit/58065bc679e6968742b5b15fa2fb82dd9e8ae988) [#5704](https://github.com/npm/cli/pull/5704) do not alter file ownership (@nlf)
+
+### Bug Fixes
+
+* [`3f1fcf0`](https://github.com/npm/cli/commit/3f1fcf054276f7f65e6a78c4d5bc460e7f962e49) account for new npm-package-arg behavior (@wraithgar)
+
+### Dependencies
+
+* [`20809d0`](https://github.com/npm/cli/commit/20809d0f1bec30dc70546108a2c08e4c14454de5) `npm-package-arg@10.0.0`, `pacote@15.0.2`
+* [`aa01072`](https://github.com/npm/cli/commit/aa010722996ef6de46e1bb937c6f8a94dc2844fa) [#5707](https://github.com/npm/cli/pull/5707) update the following dependencies
+* [Workspace](https://github.com/npm/cli/compare/arborist-v6.0.0-pre.4...arborist-v6.0.0-pre.5): `@npmcli/arborist@6.0.0-pre.5`
+
 ## [5.0.0-pre.4](https://github.com/npm/cli/compare/libnpmexec-v5.0.0-pre.3...libnpmexec-v5.0.0-pre.4) (2022-10-05)
 
 ### Dependencies

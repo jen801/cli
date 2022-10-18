@@ -1,5 +1,40 @@
 # Changelog
 
+## [9.0.0-pre.6](https://github.com/npm/cli/compare/v9.0.0-pre.5...v9.0.0-pre.6) (2022-10-18)
+
+### ⚠️ BREAKING CHANGES
+
+* npm will no longer attempt to modify ownership of files it creates
+* this package no longer attempts to change file ownership automatically
+* this package no longer attempts to change file ownership automatically
+
+### Features
+
+* [`58065bc`](https://github.com/npm/cli/commit/58065bc679e6968742b5b15fa2fb82dd9e8ae988) [#5704](https://github.com/npm/cli/pull/5704) do not alter file ownership (@nlf)
+* [`475e9b6`](https://github.com/npm/cli/commit/475e9b6c0c978a104dd2ee47bde22b0a031a95f9) [#5703](https://github.com/npm/cli/pull/5703) do not alter file ownership (@nlf)
+
+### Bug Fixes
+
+* [`3f1fcf0`](https://github.com/npm/cli/commit/3f1fcf054276f7f65e6a78c4d5bc460e7f962e49) account for new npm-package-arg behavior (@wraithgar)
+* [`353b5bb`](https://github.com/npm/cli/commit/353b5bb92c3f7899526536b597252b44aa8a712d) [#5710](https://github.com/npm/cli/pull/5710) remove chownr and mkdirp-infer-owner (@nlf)
+
+### Dependencies
+
+* [`20809d0`](https://github.com/npm/cli/commit/20809d0f1bec30dc70546108a2c08e4c14454de5) `npm-package-arg@10.0.0`, `pacote@15.0.2`
+* [`aa01072`](https://github.com/npm/cli/commit/aa010722996ef6de46e1bb937c6f8a94dc2844fa) [#5707](https://github.com/npm/cli/pull/5707) update the following dependencies
+* [Workspace](https://github.com/npm/cli/compare/arborist-v6.0.0-pre.4...arborist-v6.0.0-pre.5): `@npmcli/arborist@6.0.0-pre.5`
+* [Workspace](https://github.com/npm/cli/compare/libnpmaccess-v7.0.0-pre.1...libnpmaccess-v7.0.0-pre.2): `libnpmaccess@7.0.0-pre.2`
+* [Workspace](https://github.com/npm/cli/compare/libnpmdiff-v5.0.0-pre.2...libnpmdiff-v5.0.0-pre.3): `libnpmdiff@5.0.0-pre.3`
+* [Workspace](https://github.com/npm/cli/compare/libnpmexec-v5.0.0-pre.4...libnpmexec-v5.0.0-pre.5): `libnpmexec@5.0.0-pre.5`
+* [Workspace](https://github.com/npm/cli/compare/libnpmfund-v4.0.0-pre.4...libnpmfund-v4.0.0-pre.5): `libnpmfund@4.0.0-pre.5`
+* [Workspace](https://github.com/npm/cli/compare/libnpmhook-v9.0.0-pre.0...libnpmhook-v9.0.0-pre.1): `libnpmhook@9.0.0-pre.1`
+* [Workspace](https://github.com/npm/cli/compare/libnpmorg-v5.0.0-pre.0...libnpmorg-v5.0.0-pre.1): `libnpmorg@5.0.0-pre.1`
+* [Workspace](https://github.com/npm/cli/compare/libnpmpack-v5.0.0-pre.3...libnpmpack-v5.0.0-pre.4): `libnpmpack@5.0.0-pre.4`
+* [Workspace](https://github.com/npm/cli/compare/libnpmpublish-v7.0.0-pre.3...libnpmpublish-v7.0.0-pre.4): `libnpmpublish@7.0.0-pre.4`
+* [Workspace](https://github.com/npm/cli/compare/libnpmsearch-v6.0.0-pre.0...libnpmsearch-v6.0.0-pre.1): `libnpmsearch@6.0.0-pre.1`
+* [Workspace](https://github.com/npm/cli/compare/libnpmteam-v5.0.0-pre.0...libnpmteam-v5.0.0-pre.1): `libnpmteam@5.0.0-pre.1`
+* [Workspace](https://github.com/npm/cli/compare/libnpmversion-v4.0.0-pre.0...libnpmversion-v4.0.0-pre.1): `libnpmversion@4.0.0-pre.1`
+
 ## [9.0.0-pre.5](https://github.com/npm/cli/compare/v9.0.0-pre.4...v9.0.0-pre.5) (2022-10-13)
 
 ### ⚠️ BREAKING CHANGES
