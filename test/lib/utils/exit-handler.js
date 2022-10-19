@@ -208,7 +208,7 @@ t.test('exit handler called - no npm with error without stack', async (t) => {
 })
 
 t.test('console.log output using --json', async (t) => {
-  const { exitHandler, outputErrors } = await mockExitHandler(t, {
+  const { exitHandler, outputs } = await mockExitHandler(t, {
     config: { json: true },
   })
 
@@ -216,7 +216,7 @@ t.test('console.log output using --json', async (t) => {
 
   t.equal(process.exitCode, 1)
   t.same(
-    JSON.parse(outputErrors[0]),
+    JSON.parse(outputs[0]),
     {
       error: {
         code: 'EBADTHING', // should default error code to E[A-Z]+
